@@ -417,7 +417,8 @@ here Network bit is First 27 and last 5 is host bit which can last up 31 hosts.
 
 **VPC Chart with sub components:**
 
-![[Image of AWS VPC diagram with all components]](Aspose.Words.1a105e8c-96fe-4275-84e6-c4c938fef5b5.001.png)
+![Aspose Words 1a105e8c-96fe-4275-84e6-c4c938fef5b5 001](https://github.com/VibishnathanG/AWS_Guide/assets/109983038/e66aae62-11b1-4749-b154-0d9964fb8627)
+
 
 
 
@@ -463,7 +464,8 @@ here Network bit is First 27 and last 5 is host bit which can last up 31 hosts.
 ![
       Architectural differences between two Lambda functions that don't use layers, and two
         functions that share a layer.
-    ](Aspose.Words.1a105e8c-96fe-4275-84e6-c4c938fef5b5.002.png)
+    ]![Aspose Words 1a105e8c-96fe-4275-84e6-c4c938fef5b5 002](https://github.com/VibishnathanG/AWS_Guide/assets/109983038/5bce0fa6-c9bc-4ca7-900f-dae5fb37fb6c)
+
 
 - **Replicas:** Automatically scale your function's concurrency to handle bursts of events, ensuring responsiveness.
 - **Step Functions State Machines:** Orchestrate complex workflows by chaining Lambda functions together in visual workflow diagrams.
