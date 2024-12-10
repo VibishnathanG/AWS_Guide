@@ -1,0 +1,22 @@
+Host RHEL-Server
+HostName 13.232.102.182
+IdentityFile ""E:\Study\Intellipaat\AWS\root.pem""
+User root
+RemoteCommand cd /Devops && exec bash
+StrictHostKeyChecking no
+UserKnownHostsFile=/dev/null
+
+
+Host AWS_Server
+HostName **IP**
+IdentityFile ""E:\Study\Intellipaat\AWS\ap-south-keypair.pem""
+User ec2-user
+
+Host git-codecommit.*.amazonaws.com
+User APKA6DA4BT7ZG4SLYFMJ
+IdentityFile ~/.ssh/id_rsa
+
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/github
