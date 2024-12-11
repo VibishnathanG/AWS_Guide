@@ -20,3 +20,7 @@ Host github.com
 HostName github.com
 User git
 IdentityFile ~/.ssh/github
+
+
+
+#Root key or equilant Key should be added to the authorized keys folder under ~/.ssh for destination server and perm for private key should be 400
